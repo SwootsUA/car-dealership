@@ -5,6 +5,10 @@ body {
     font-family: "Roboto Flex", sans-serif;
 }
 
+p {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
