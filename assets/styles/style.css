@@ -1,3 +1,7 @@
+body {
+    font-size: 100%;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -21,6 +25,84 @@ header ul li a {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: xx-large;
+    font-size: 2em;
     padding: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+    font-size: 3em;
+    margin: 16px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 8px;
+    font-size: 2em;
+}
+
+.brand h2 img {
+    padding-inline: 10px;
+    height: 100%;
+}
+
+.brand a {
+    align-self: center;
+    color: black;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+.history h3 {
+    align-self: center;
+    font-size: 1.6em;
+    margin: 6px;
+}
+
+.models {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+}
+
+.models h3 {
+    align-self: center;
+    font-size: 1.6em;
+    margin: 6px;
+}
+
+.models h4 {
+    font-size: 1.3em;
+    margin: 16px 0px 6px 0px;
+}
+
+.models h5 {
+    font-size: 1.3em;
+    margin: 6px 0px 6px 0px;
+}
+
+main hr {
+    padding: 0;
+    border: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-inline: 0;
+    width: 70%;
+    align-self: center;
 }
