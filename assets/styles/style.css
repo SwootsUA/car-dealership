@@ -127,3 +127,7 @@ footer {
     align-items: center;
     width: 80%;
 }
+
+address {
+    font-style: normal;
+}
