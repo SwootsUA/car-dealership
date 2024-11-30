@@ -101,7 +101,23 @@ h1 {
     margin: 16px 0px 6px 0px;
 }
 
-.reviews h5 {
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews-content em {
+    max-width: 23%;
+    margin-inline: 10px;
+}
+
+.reviews h3 {
+    align-self: center;
     font-size: 1.3em;
     margin: 6px 0px 6px 0px;
 }
