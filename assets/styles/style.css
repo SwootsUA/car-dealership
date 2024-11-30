@@ -12,6 +12,10 @@ header {
     padding-inline: 40px;
 }
 
+header img {
+    padding-inline: 16px;
+}
+
 header ul {
     list-style-type: none;
     margin: 0;
