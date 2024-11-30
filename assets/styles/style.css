@@ -102,7 +102,11 @@ h1 {
 
 .models h4 {
     font-size: 1.3em;
-    margin: 16px 0px 6px 0px;
+    margin: 6px 0px 6px 0px;
+}
+
+.models article {
+    margin-bottom: 10px;
 }
 
 .reviews {
