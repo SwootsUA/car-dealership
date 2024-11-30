@@ -150,3 +150,7 @@ footer {
 address {
     font-style: normal;
 }
+
+.link-top {
+    margin-top: 8px;
+}
