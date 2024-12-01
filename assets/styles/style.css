@@ -86,7 +86,7 @@ h1 {
     padding-bottom: 16px;
 }
 
-.history h3 {
+h3 {
     align-self: center;
     font-size: 1.6em;
     margin: 6px;
@@ -96,12 +96,6 @@ h1 {
     display: flex;
     flex-direction: column;
     padding-bottom: 8px;
-}
-
-.models h3 {
-    align-self: center;
-    font-size: 1.6em;
-    margin: 6px;
 }
 
 .models h4 {
@@ -131,12 +125,6 @@ h1 {
     margin-inline: 10px;
 }
 
-.reviews h3 {
-    align-self: center;
-    font-size: 1.6em;
-    margin: 6px 0;
-}
-
 hr {
     padding: 0;
     border: 1;
@@ -160,4 +148,3 @@ footer {
 address {
     font-style: normal;
 }
-
