@@ -14,20 +14,17 @@ header {
 
 header img {
     width: 128px;
-    padding-inline: 16px;
+    margin: 0 16px;
 }
 
-header ul {
+.brands-list {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.brands-list {
-    display: flex;
-}
-
-header ul li a {
+.brands-list a {
     color: black;
     text-decoration: none;
     font-size: 2em;
@@ -48,7 +45,6 @@ h1 {
 .brand h2 {
     display: flex;
     align-items: center;
-    flex-direction: row;
     margin: 8px;
     font-size: 2em;
 }
@@ -56,7 +52,6 @@ h1 {
 .brand h2 img {
     padding-right: 10px;
     width: 32px;
-    height: 100%;
 }
 
 .link-top {
@@ -64,27 +59,21 @@ h1 {
 }
 
 .link-top-wrapper {
-    width: 100%;
-    margin: 8px 0 0 0;
     text-align: center;
 }
 
 .history {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 h3 {
-    align-self: center;
+    text-align: center;
     font-size: 1.6em;
     margin: 6px;
 }
 
 .models {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .models h4 {
@@ -97,8 +86,7 @@ h3 {
 }
 
 .reviews {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 16px;
 }
 
 .reviews-content {
@@ -111,11 +99,6 @@ h3 {
 
 .reviews-content li {
     max-width: 23%;
-    margin-inline: 10px;
-}
-
-hr {
-    width: 100%;
 }
 
 main hr {
