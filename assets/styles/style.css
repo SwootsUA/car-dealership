@@ -1,8 +1,5 @@
 body {
-    display: flex;
-    flex-direction: column;
     font-family: "Roboto Flex", sans-serif;
-    align-items: center;
 }
 
 p {
@@ -39,6 +36,7 @@ header ul li a {
 }
 
 main {
+    margin: auto;
     display: flex;
     flex-direction: column;
     max-width: 80%;
