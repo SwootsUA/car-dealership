@@ -1,5 +1,4 @@
 body {
-    font-size: 100%;
     display: flex;
     flex-direction: column;
     font-family: "Roboto Flex", sans-serif;
@@ -12,10 +11,8 @@ p {
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 40px;
     width: 100%;
 }
 
@@ -35,9 +32,7 @@ header ul {
 }
 
 header ul li a {
-    display: block;
     color: black;
-    text-align: center;
     text-decoration: none;
     font-size: 2em;
     padding: 16px;
@@ -115,9 +110,9 @@ h3 {
 .reviews-content {
     display: flex;
     justify-content: space-around;
+    list-style: none;
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 .reviews-content li {
@@ -126,10 +121,7 @@ h3 {
 }
 
 hr {
-    padding: 0;
-    margin: 8px 0;
     width: 100%;
-    align-self: center;
 }
 
 main hr {
