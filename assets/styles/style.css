@@ -74,7 +74,8 @@ h1 {
     height: 100%;
 }
 
-.brand a {
+.link-top {
+    margin: 8px 0 0 0;
     align-self: center;
     color: black;
 }
@@ -105,7 +106,7 @@ h1 {
 
 .models h4 {
     font-size: 1.3em;
-    margin: 6px 0px 6px 0px;
+    margin: 6px 0;
 }
 
 .models article {
@@ -133,15 +134,13 @@ h1 {
 .reviews h3 {
     align-self: center;
     font-size: 1.6em;
-    margin: 6px 0px 6px 0px;
+    margin: 6px 0;
 }
 
 hr {
     padding: 0;
     border: 1;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-inline: 0;
+    margin: 8px 0;
     width: 100%;
     align-self: center;
 }
@@ -151,7 +150,7 @@ main hr {
 }
 
 footer {
-    align-self: center;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -162,6 +161,3 @@ address {
     font-style: normal;
 }
 
-.link-top {
-    margin-top: 8px;
-}
