@@ -30,8 +30,8 @@ header ul {
     padding: 0;
 }
 
-header ul li {
-    float: left;
+.brands-list {
+    display: flex;
 }
 
 header ul li a {
