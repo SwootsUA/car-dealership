@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto Flex", sans-serif;
+    align-items: center;
 }
 
 p {
@@ -15,6 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-inline: 40px;
+    width: 100%;
 }
 
 header img {
@@ -44,6 +46,7 @@ header ul li a {
 main {
     display: flex;
     flex-direction: column;
+    max-width: 80%;
 }
 
 h1 {
