@@ -37,15 +37,13 @@ header ul li a {
 
 main {
     margin: auto;
-    display: flex;
-    flex-direction: column;
     max-width: 80%;
 }
 
 h1 {
-    align-self: center;
+    text-align: center;
+    margin: 16px 0;
     font-size: 3em;
-    margin: 16px;
 }
 
 .brand {
