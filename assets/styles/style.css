@@ -45,11 +45,6 @@ h1 {
     font-size: 3em;
 }
 
-.brand {
-    display: flex;
-    flex-direction: column;
-}
-
 .brand h2 {
     display: flex;
     align-items: center;
@@ -65,9 +60,13 @@ h1 {
 }
 
 .link-top {
-    margin: 8px 0 0 0;
-    align-self: center;
     color: black;
+}
+
+.link-top-wrapper {
+    width: 100%;
+    margin: 8px 0 0 0;
+    text-align: center;
 }
 
 .history {
