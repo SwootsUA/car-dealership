@@ -42,15 +42,19 @@ h1 {
     font-size: 3em;
 }
 
-.brand h2 {
+.brand-heading-wrapper {
     display: flex;
     align-items: center;
     margin: 8px;
     font-size: 2em;
 }
 
-.brand h2 img {
-    padding-right: 10px;
+.brand-heading-wrapper h2 {
+    margin: 0;
+}
+
+.brand-heading-wrapper img {
+    margin-right: 10px;
     width: 32px;
 }
 
