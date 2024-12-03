@@ -49,7 +49,7 @@ h1 {
     font-size: 2em;
 }
 
-.brand-heading-wrapper h2 {
+h2 {
     margin: 0;
 }
 
@@ -119,4 +119,23 @@ footer {
 
 address {
     font-style: normal;
+}
+
+table {
+    border: 1px solid black;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 1.3em;
+}
+
+.cars-info-table {
+    text-align: center;
+}
+
+.cars-info-table h2 {
+    margin-bottom: 8px;
 }
