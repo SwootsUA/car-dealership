@@ -143,3 +143,14 @@ th, td {
 form section {
     border: 1px solid black;
 }
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+}

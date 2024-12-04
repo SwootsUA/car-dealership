@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    <form action="" method="post">
+    <form action="form.html" method="post">
         <section>
-            Personal info
+            <h2>Personal info</h2>
 
             <div>
                 <label for="name">First Name</label> 
-                <input type="text" name="name-input" id="name">
+                <input type="text" name="name-input" id="name" required>
             </div>
 
             <div>
                 <label for="surname">Last Name</label> 
-                <input type="text" name="surname-input" id="surname">
+                <input type="text" name="surname-input" id="surname" required>
             </div>
 
             <div>
@@ -53,16 +53,16 @@
         </section>
 
         <section>
-            Contacts
+            <h2>Contacts</h2>
 
             <div>
                 <label for="email">Email</label>
-                <input type="email" name="email-input" id="email">
+                <input type="email" name="email-input" id="email" required>
             </div>
 
             <div>
                 <label for="phone">Phone</label>
-                <input type="tel" name="phone-input" id="phone" maxlength="16">
+                <input type="tel" name="phone-input" id="phone" maxlength="16" required>
             </div>
 
             <div>
@@ -72,7 +72,7 @@
         </section>
         
         <section>
-            Car info
+            <h2>Car info</h2>
 
             <div>
                 <label for="brand">Brand</label>
@@ -88,12 +88,21 @@
                 <label for="model">Model</label>
                 <select name="model-input" id="model">
                     <option value="" disabled selected>----</option>
-                    <option value="Supra">Supra</option>
-                    <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
-                    <option value="BRZ">BRZ</option>
-                    <option value="Forester">Forester</option>
-                    <option value="Model-S">Model S</option>
-                    <option value="Model-X">Model X</option>
+                    
+                    <optgroup label="Toyota">
+                        <option value="Supra">Supra</option>
+                        <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
+                    </optgroup>
+
+                    <optgroup label="Subaru">
+                        <option value="BRZ">BRZ</option>
+                        <option value="Forester">Forester</option>
+                    </optgroup>
+
+                    <optgroup label="Tesla">
+                        <option value="Model-S">Model S</option>
+                        <option value="Model-X">Model X</option>
+                    </optgroup>
                 </select>
             </div>
 
@@ -122,8 +131,13 @@
             </div>
         </section>
 
-        <button formaction="index.html" formmethod="get">Cancel</button>
-        <button>Ok</button>
+        <!-- 
+            Temporary, until server side is up 
+            Change for
+            <button>Ok</button>
+        -->
+        <a href="index.html" class="button">Cancel</a>
+        <a href="index.html" class="button">Ok</a>
     </form>
 </body>
 </html>
