@@ -149,11 +149,9 @@ form section {
     padding: 5px 10px;
     margin: 0 3px;
     color: black;
-    background-color: white;
     border: 2px solid black;
     border-radius: 6px;
     text-decoration: none;
-    text-align: center;
 }
 
 .form-section {
@@ -166,7 +164,6 @@ form section {
 }
 
 .form-section div input {
-    display: inline-block;
     margin: 0 10px 0 0;
 }
 
