@@ -139,3 +139,7 @@ th, td {
 .cars-info-table h2 {
     margin-bottom: 8px;
 }
+
+form section {
+    border: 1px solid black;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="./assets/images/Car_dealership_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <section>
+            Personal info
+
+            <div>
+                <label for="name">First Name</label> 
+                <input type="text" name="name-input" id="name">
+            </div>
+
+            <div>
+                <label for="surname">Last Name</label> 
+                <input type="text" name="surname-input" id="surname">
+            </div>
+
+            <div>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday-input" id="birthday">
+            </div>
+
+            <div>
+                Gender 
+                <br>
+                <label for="gender-male">Male</label>
+                <input type="radio" name="gender-input" id="gender-male">
+                <label for="gender-female">Female</label>
+                <input type="radio" name="gender-input" id="gender-female">
+            </div>
+
+            <div>
+                <label for="drive-experience">Drive experience</label>
+                <select name="drive-experience-input" id="drive-experience">
+                    <option value="" disabled selected>----</option>
+                    <option value="None">No experience (0 years)</option>
+                    <option value="Less-than-2-years">Less than 2 years (0–1 years)</option>
+                    <option value="Moderate">Moderate experience (2–5 years)</option>
+                    <option value="Extensive">Extensive experience (6–10 years)</option>
+                    <option value="Highly-experienced">Highly experienced (10+ years)</option>
+                </select>
+            </div>            
+        </section>
+
+        <section>
+            Contacts
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email-input" id="email">
+            </div>
+
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone-input" id="phone" maxlength="16">
+            </div>
+
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address-input" id="address"></textarea>
+            </div>
+        </section>
+        
+        <section>
+            Car info
+
+            <div>
+                <label for="brand">Brand</label>
+                <select name="brand-input" id="brand">
+                    <option value="" disabled selected>----</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Subaru">Subaru</option>
+                    <option value="Tesla">Tesla</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="model">Model</label>
+                <select name="model-input" id="model">
+                    <option value="" disabled selected>----</option>
+                    <option value="Supra">Supra</option>
+                    <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
+                    <option value="BRZ">BRZ</option>
+                    <option value="Forester">Forester</option>
+                    <option value="Model-S">Model S</option>
+                    <option value="Model-X">Model X</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="used">Used</label>
+                <input type="checkbox" name="used-input" id="used">
+            </div>
+
+            <div>
+                Color
+                <label for="color-red">Red</label>
+                <input type="radio" name="color-input" id="color-red">
+                <label for="color-black">Black</label>
+                <input type="radio" name="color-input" id="color-black">
+                <label for="color-blue">Blue</label>
+                <input type="radio" name="color-input" id="color-blue">
+                <label for="color-white">White</label>
+                <input type="radio" name="color-input" id="color-white">
+                <label for="color-grey">Grey</label>
+                <input type="radio" name="color-input" id="color-grey">
+            </div>
+
+            <div>
+                <label for="price">Price</label>
+                <input type="range" name="price-input" id="price" max="90000" min="1000">
+            </div>
+        </section>
+
+        <button formaction="index.html" formmethod="get">Cancel</button>
+        <button>Ok</button>
+    </form>
+</body>
+</html>
