@@ -154,3 +154,16 @@ form section {
     text-decoration: none;
     text-align: center;
 }
+
+.form-section {
+    margin: 10px 0;
+}
+
+.form-section div {
+    margin: 5px;
+}
+
+.form-section div input {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}

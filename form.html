@@ -11,133 +11,140 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    <form action="form.html" method="post">
-        <section>
-            <h2>Personal info</h2>
-
-            <div>
-                <label for="name">First Name</label> 
-                <input type="text" name="name-input" id="name" required>
-            </div>
-
-            <div>
-                <label for="surname">Last Name</label> 
-                <input type="text" name="surname-input" id="surname" required>
-            </div>
-
-            <div>
-                <label for="birthday">Birthday</label>
-                <input type="date" name="birthday-input" id="birthday">
-            </div>
-
-            <div>
-                Gender 
-                <br>
-                <label for="gender-male">Male</label>
-                <input type="radio" name="gender-input" id="gender-male">
-                <label for="gender-female">Female</label>
-                <input type="radio" name="gender-input" id="gender-female">
-            </div>
-
-            <div>
-                <label for="drive-experience">Drive experience</label>
-                <select name="drive-experience-input" id="drive-experience">
-                    <option value="" disabled selected>----</option>
-                    <option value="None">No experience (0 years)</option>
-                    <option value="Less-than-2-years">Less than 2 years (0–1 years)</option>
-                    <option value="Moderate">Moderate experience (2–5 years)</option>
-                    <option value="Extensive">Extensive experience (6–10 years)</option>
-                    <option value="Highly-experienced">Highly experienced (10+ years)</option>
-                </select>
-            </div>            
-        </section>
-
-        <section>
-            <h2>Contacts</h2>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email-input" id="email" required>
-            </div>
-
-            <div>
-                <label for="phone">Phone</label>
-                <input type="tel" name="phone-input" id="phone" maxlength="16" required>
-            </div>
-
-            <div>
-                <label for="address">Address</label>
-                <textarea name="address-input" id="address"></textarea>
-            </div>
-        </section>
-        
-        <section>
-            <h2>Car info</h2>
-
-            <div>
-                <label for="brand">Brand</label>
-                <select name="brand-input" id="brand">
-                    <option value="" disabled selected>----</option>
-                    <option value="Toyota">Toyota</option>
-                    <option value="Subaru">Subaru</option>
-                    <option value="Tesla">Tesla</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="model">Model</label>
-                <select name="model-input" id="model">
-                    <option value="" disabled selected>----</option>
+    <main>
+        <form action="form.html" method="post">
+            <section class="form-section">
+                <h2>Personal info</h2>
+    
+                <div>
+                    <label for="name">First Name</label> 
+                    <input type="text" name="name-input" id="name" required>
+                </div>
+    
+                <div>
+                    <label for="surname">Last Name</label> 
+                    <input type="text" name="surname-input" id="surname" required>
+                </div>
+    
+                <div>
+                    <label for="birthday">Birthday</label>
+                    <input type="date" name="birthday-input" id="birthday">
+                </div>
+    
+                <div>
+                    Gender 
+                    <br>
+                    <label for="gender-male">Male</label>
+                    <input type="radio" name="gender-input" id="gender-male">
+                    <label for="gender-female">Female</label>
+                    <input type="radio" name="gender-input" id="gender-female">
+                </div>
+    
+                <div>
+                    <label for="drive-experience">Drive experience</label>
+                    <select name="drive-experience-input" id="drive-experience">
+                        <option value="" disabled selected>----</option>
+                        <option value="None">No experience (0 years)</option>
+                        <option value="Less-than-2-years">Less than 2 years (0–1 years)</option>
+                        <option value="Moderate">Moderate experience (2–5 years)</option>
+                        <option value="Extensive">Extensive experience (6–10 years)</option>
+                        <option value="Highly-experienced">Highly experienced (10+ years)</option>
+                    </select>
+                </div>            
+            </section>
+    
+            <section class="form-section">
+                <h2>Contacts</h2>
+    
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email-input" id="email" required>
+                </div>
+    
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone-input" id="phone" maxlength="16" required>
+                </div>
+    
+                <div>
+                    <label for="address">Address</label>
+                    <textarea name="address-input" id="address"></textarea>
+                </div>
+            </section>
+            
+            <section class="form-section">
+                <h2>Car info</h2>
+    
+                <div>
+                    <label for="brand">Brand</label>
+                    <select name="brand-input" id="brand">
+                        <option value="" disabled selected>----</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Subaru">Subaru</option>
+                        <option value="Tesla">Tesla</option>
+                    </select>
+                </div>
+    
+                <div>
+                    <label for="model">Model</label>
+                    <select name="model-input" id="model">
+                        <option value="" disabled selected>----</option>
+                        
+                        <optgroup label="Toyota">
+                            <option value="Supra">Supra</option>
+                            <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
+                        </optgroup>
+    
+                        <optgroup label="Subaru">
+                            <option value="BRZ">BRZ</option>
+                            <option value="Forester">Forester</option>
+                        </optgroup>
+    
+                        <optgroup label="Tesla">
+                            <option value="Model-S">Model S</option>
+                            <option value="Model-X">Model X</option>
+                        </optgroup>
+                    </select>
+                </div>
+    
+                <div>
+                    <label for="used">Used</label>
+                    <input type="checkbox" name="used-input" id="used">
+                </div>
+    
+                <div>
+                    Color
+                    <br>
+                    <label for="color-red">Red</label>
+                    <input type="radio" name="color-input" id="color-red">
                     
-                    <optgroup label="Toyota">
-                        <option value="Supra">Supra</option>
-                        <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
-                    </optgroup>
+                    <label for="color-black">Black</label>
+                    <input type="radio" name="color-input" id="color-black">
 
-                    <optgroup label="Subaru">
-                        <option value="BRZ">BRZ</option>
-                        <option value="Forester">Forester</option>
-                    </optgroup>
+                    <label for="color-blue">Blue</label>
+                    <input type="radio" name="color-input" id="color-blue">
 
-                    <optgroup label="Tesla">
-                        <option value="Model-S">Model S</option>
-                        <option value="Model-X">Model X</option>
-                    </optgroup>
-                </select>
-            </div>
+                    <label for="color-white">White</label>
+                    <input type="radio" name="color-input" id="color-white">
 
-            <div>
-                <label for="used">Used</label>
-                <input type="checkbox" name="used-input" id="used">
-            </div>
-
-            <div>
-                Color
-                <label for="color-red">Red</label>
-                <input type="radio" name="color-input" id="color-red">
-                <label for="color-black">Black</label>
-                <input type="radio" name="color-input" id="color-black">
-                <label for="color-blue">Blue</label>
-                <input type="radio" name="color-input" id="color-blue">
-                <label for="color-white">White</label>
-                <input type="radio" name="color-input" id="color-white">
-                <label for="color-grey">Grey</label>
-                <input type="radio" name="color-input" id="color-grey">
-            </div>
-
-            <div>
-                <label for="price">Price</label>
-                <input type="range" name="price-input" id="price" max="90000" min="1000">
-            </div>
-        </section>
-
-        <!-- 
-            Temporary, until server side is up 
-            Change for
-            <button>Ok</button>
-        -->
-        <a href="index.html" class="button">Cancel</a>
-        <a href="index.html" class="button">Ok</a>
-    </form>
+                    <label for="color-grey">Grey</label>
+                    <input type="radio" name="color-input" id="color-grey">
+                </div>
+    
+                <div>
+                    <label for="price">Price</label>
+                    <input type="range" name="price-input" id="price" max="90000" min="1000">
+                </div>
+            </section>
+    
+            <!-- 
+                Temporary, until server side is up 
+                Change for
+                <button>Ok</button>
+            -->
+            <a href="index.html" class="button">Cancel</a>
+            <a href="index.html" class="button">Ok</a>
+        </form>
+    </main>
 </body>
 </html>
