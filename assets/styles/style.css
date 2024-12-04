@@ -173,3 +173,11 @@ form section {
 .form {
     max-width: 380px;
 }
+
+.address-input {
+    display: flex;
+}
+
+.address-input label {
+    margin: 0 4px 0 0;
+}
