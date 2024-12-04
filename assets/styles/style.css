@@ -169,3 +169,7 @@ form section {
     display: inline-block;
     margin: 0 10px 0 0;
 }
+
+.form {
+    max-width: 380px;
+}
