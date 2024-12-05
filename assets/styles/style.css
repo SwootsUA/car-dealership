@@ -101,6 +101,7 @@ h3 {
 .reviews-content {
     display: flex;
     justify-content: space-around;
+    text-align: justify;
     list-style: none;
     padding: 0;
     margin: 0;
