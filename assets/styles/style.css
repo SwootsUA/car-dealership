@@ -18,17 +18,18 @@ header img {
 }
 
 .brands-list {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
     padding: 0;
+}
+
+.brands-list li {
+    display: inline;
+    margin: 0 16px;
 }
 
 .brands-list a {
     color: black;
     text-decoration: none;
     font-size: 2em;
-    padding: 16px;
 }
 
 main {
