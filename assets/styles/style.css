@@ -48,17 +48,17 @@ h1 {
 }
 
 .brand-heading-wrapper {
-    display: flex;
-    align-items: center;
     margin: 8px;
     font-size: 2em;
 }
 
 h2 {
-    margin: 0;
+    display: inline;
+    vertical-align: middle;
 }
 
 .brand-heading-wrapper img {
+    vertical-align: middle;
     margin-right: 10px;
     width: 32px;
 }
