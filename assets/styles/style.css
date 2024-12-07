@@ -37,7 +37,15 @@ main {
     max-width: 80%;
 }
 
-main hr {
+/* divider that looks like <hr>*/
+.divider {
+    margin: 0.5em auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+main .divider {
     width: 70%;
 }
 
