@@ -7,17 +7,17 @@ form {
     margin: auto;
 }
 
-section {
+fieldset {
     border: 1px solid black;
     padding: 5px 10px;
     margin: 10px 0;
 }
 
-section div {
+fieldset div {
     margin: 5px;
 }
 
-section div input {
+fieldset div input {
     margin: 0 10px 0 0;
 }
 
