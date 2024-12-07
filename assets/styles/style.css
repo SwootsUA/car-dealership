@@ -41,7 +41,6 @@ main {
     max-width: 80%;
 }
 
-/* divider that looks like <hr>*/
 .divider {
     margin: 0.5em auto;
     overflow: hidden;
