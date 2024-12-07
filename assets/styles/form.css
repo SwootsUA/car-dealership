@@ -25,6 +25,11 @@ fieldset div {
     margin: 5px;
 }
 
+.inline {
+    margin: 0;
+    display: inline-block;
+}
+
 input {
     margin: 3px 10px 0 0;
 }
