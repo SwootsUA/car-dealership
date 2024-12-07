@@ -2,6 +2,11 @@
     box-sizing: border-box
 }
 
+form {
+    max-width: 380px;
+    margin: auto;
+}
+
 form section {
     border: 1px solid black;
 }
@@ -27,10 +32,6 @@ form section {
 
 .form-section div input {
     margin: 0 10px 0 0;
-}
-
-.form {
-    max-width: 380px;
 }
 
 .address-input {
