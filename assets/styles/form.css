@@ -17,8 +17,8 @@ fieldset div {
     margin: 5px;
 }
 
-fieldset div input {
-    margin: 0 10px 0 0;
+input {
+    margin: 3px 10px 0 0;
 }
 
 .button {
