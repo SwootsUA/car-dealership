@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box
+}
+
 body {
     font-family: "Roboto Flex", sans-serif;
 }
@@ -150,43 +154,4 @@ th, td {
 
 .cars-info-table h2 {
     margin-bottom: 8px;
-}
-
-form section {
-    border: 1px solid black;
-}
-
-.button {
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 0 3px;
-    color: black;
-    border: 2px solid black;
-    border-radius: 6px;
-    text-decoration: none;
-}
-
-.form-section {
-    padding: 5px 10px;
-    margin: 10px 0;
-}
-
-.form-section div {
-    margin: 5px;
-}
-
-.form-section div input {
-    margin: 0 10px 0 0;
-}
-
-.form {
-    max-width: 380px;
-}
-
-.address-input {
-    display: flex;
-}
-
-.address-input label {
-    margin: 0 4px 0 0;
 }
