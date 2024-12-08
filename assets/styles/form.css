@@ -6,10 +6,6 @@ body {
     font-family: "Roboto Flex", sans-serif;
 }
 
-h2 {
-    margin: 0;
-}
-
 form {
     max-width: 380px;
     margin: auto;
