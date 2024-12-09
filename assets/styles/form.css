@@ -55,3 +55,18 @@ input {
 .address-input label {
     margin: 0 4px 0 0;
 }
+
+input[type="range"] {
+    display: block;
+    width: 240px;
+}
+
+datalist {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+}
+
+option {
+    font-size: 0.7em;
+}
