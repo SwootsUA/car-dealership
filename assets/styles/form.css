@@ -34,6 +34,34 @@ input {
     margin: 3px 10px 0 0;
 }
 
+.address-input {
+    display: flex;
+}
+
+.address-input label {
+    margin: 0 4px 0 0;
+}
+
+input[type="range"] {
+    display: block;
+    margin: 0 5px;
+    width: 230px;
+}
+
+datalist {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+}
+
+option {
+    font-size: 0.8rem;
+}
+
+.disabled-option {
+    display: none;
+}
+
 .button, button {
     font-size: initial;
     font-family: inherit;
@@ -48,25 +76,10 @@ input {
     border-radius: 6px;
 }
 
-.address-input {
-    display: flex;
+.button:hover, button:hover {
+    background-color: lightgray;
 }
 
-.address-input label {
-    margin: 0 4px 0 0;
-}
-
-input[type="range"] {
-    display: block;
-    width: 240px;
-}
-
-datalist {
-    display: flex;
-    width: 240px;
-    justify-content: space-between;
-}
-
-option {
-    font-size: 0.7em;
+.button:active, button:active {
+    background-color: gray;
 }
