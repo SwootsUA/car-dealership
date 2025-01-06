@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,156 +11,161 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/form.css">
 </head>
+
 <body>
     <form>
-        <fieldset>
-            <legend>Personal info</legend>
+        <div class="form-fieldsets">
+            <fieldset>
+                <legend>Personal info</legend>
 
-            <div>
-                <label for="name">First Name</label>
-                <input type="text" name="name-input" id="name" required>
-            </div>
-
-            <div>
-                <label for="surname">Last Name</label>
-                <input type="text" name="surname-input" id="surname" required>
-            </div>
-
-            <div>
-                <label for="birthday">Birthday</label>
-                <input type="date" name="birthday-input" id="birthday">
-            </div>
-
-            <div>
-                <p>Gender</p>
-
-                <div class="inline">
-                    <label for="gender-male">Male</label>
-                    <input checked type="radio" name="gender-input" id="gender-male">
+                <div class="input-group">
+                    <label for="name">First Name</label>
+                    <input class="generic-input" type="text" name="name-input" id="name" required>
                 </div>
 
-                <div class="inline">
-                    <label for="gender-female">Female</label>
-                    <input type="radio" name="gender-input" id="gender-female">
+                <div class="input-group">
+                    <label for="surname">Last Name</label>
+                    <input class="generic-input" type="text" name="surname-input" id="surname" required>
                 </div>
-            </div>
 
-            <div>
-                <label for="drive-experience">Drive experience</label>
-                <select name="drive-experience-input" id="drive-experience">
-                    <option class="disabled-option" value="" disabled selected>----</option>
-                    <option value="None">No experience (0 years)</option>
-                    <option value="Less-than-2-years">Less than 2 years (0–1 years)</option>
-                    <option value="Moderate">Moderate experience (2–5 years)</option>
-                    <option value="Extensive">Extensive experience (6–10 years)</option>
-                    <option value="Highly-experienced">Highly experienced (10+ years)</option>
-                </select>
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Contacts</legend>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email-input" id="email" required>
-            </div>
-
-            <div>
-                <label for="phone">Phone</label>
-                <input type="tel" name="phone-input" id="phone" maxlength="16" required>
-            </div>
-
-            <div class="address-input">
-                <label for="address" >Address</label>
-                <textarea name="address-input" id="address"></textarea>
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Car info</legend>
-
-            <div>
-                <label for="brand">Brand</label>
-                <select name="brand-input" id="brand">
-                    <option class="disabled-option" value="" disabled selected>----</option>
-                    <option value="Toyota">Toyota</option>
-                    <option value="Subaru">Subaru</option>
-                    <option value="Tesla">Tesla</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="model">Model</label>
-                <select name="model-input" id="model">
-                    <option class="disabled-option" value="" disabled selected>----</option>
-
-                    <optgroup label="Toyota">
-                        <option value="Supra">Supra</option>
-                        <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
-                    </optgroup>
-
-                    <optgroup label="Subaru">
-                        <option value="BRZ">BRZ</option>
-                        <option value="Forester">Forester</option>
-                    </optgroup>
-
-                    <optgroup label="Tesla">
-                        <option value="Model-S">Model S</option>
-                        <option value="Model-X">Model X</option>
-                    </optgroup>
-                </select>
-            </div>
-
-            <div>
-                <label for="used">Used</label>
-                <input type="checkbox" name="used-input" id="used">
-            </div>
-
-            <div>
-                <p>Color</p>
-                
-                <div class="inline">
-                    <label for="color-red">Red</label>
-                    <input checked type="radio" name="color-input" id="color-red">
+                <div class="input-group">
+                    <label for="birthday">Birthday</label>
+                    <input class="generic-input" type="date" name="birthday-input" id="birthday">
                 </div>
-                <div class="inline">
-                    <label for="color-black">Black</label>
-                    <input type="radio" name="color-input" id="color-black">
-                </div>
-                <div class="inline">
-                    <label for="color-blue">Blue</label>
-                    <input type="radio" name="color-input" id="color-blue">
-                </div>
-                <div class="inline">
-                    <label for="color-white">White</label>
-                    <input type="radio" name="color-input" id="color-white">
-                </div>
-                <div class="inline">
-                    <label for="color-grey">Grey</label>
-                    <input type="radio" name="color-input" id="color-grey">
-                </div>
-            </div>
 
-            <div>
-                <label for="price">Price</label>
-                <input type="range" name="price-input" id="price" min="10" max="80" step="10" list="price-list">
+                <div class="input-group">
+                    <p>Gender</p>
 
-                <datalist id="price-list">
-                    <option value="10" label="10"></option>
-                    <option value="20" label="20"></option>
-                    <option value="30" label="30"></option>
-                    <option value="40" label="40"></option>
-                    <option value="50" label="50"></option>
-                    <option value="60" label="60"></option>
-                    <option value="70" label="70"></option>
-                    <option value="80" label="80"></option>
-                </datalist>
-            </div>
-        </fieldset>
+                    <div>
+                        <label for="gender-male">Male</label>
+                        <input checked type="radio" name="gender-input" id="gender-male">
+                    </div>
 
-        <a href="index.html" class="button">Cancel</a>
-        <button type="submit">Ok</button>
+                    <div>
+                        <label for="gender-female">Female</label>
+                        <input type="radio" name="gender-input" id="gender-female">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="drive-experience">Drive experience</label>
+                    <select name="drive-experience-input" id="drive-experience">
+                        <option class="disabled-option" value="" disabled selected>---</option>
+                        <option value="expert">expert</option>
+                        <option value="more-than-10">more than 10</option>
+                        <option value="5-10">5-10</option>
+                        <option value="2-5">2-5</option>
+                        <option value="less-than-2">less than 2</option>
+                        <option value="beginner">beginner</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacts</legend>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input class="generic-input" type="email" name="email-input" id="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone</label>
+                    <input class="generic-input" type="tel" name="phone-input" id="phone" maxlength="16" required>
+                </div>
+
+                <div class="input-group address-input">
+                    <label for="address">Address</label>
+                    <textarea class="generic-input" name="address-input" id="address"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Car info</legend>
+
+                <div class="input-group">
+                    <label for="brand">Brand</label>
+                    <select name="brand-input" id="brand">
+                        <option class="disabled-option" value="" disabled selected>---</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Subaru">Subaru</option>
+                        <option value="Tesla">Tesla</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="model">Model</label>
+                    <select name="model-input" id="model">
+                        <option class="disabled-option" value="" disabled selected>---</option>
+
+                        <optgroup label="Toyota">
+                            <option value="Supra">Supra</option>
+                            <option value="Land-Cruiser-Prado">Land Cruiser Prado</option>
+                        </optgroup>
+
+                        <optgroup label="Subaru">
+                            <option value="BRZ">BRZ</option>
+                            <option value="Forester">Forester</option>
+                        </optgroup>
+
+                        <optgroup label="Tesla">
+                            <option value="Model-S">Model S</option>
+                            <option value="Model-X">Model X</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="input-group used-checkbox">
+                    <label for="used">Used</label>
+                    <input type="checkbox" name="used-input" id="used">
+                </div>
+
+                <div class="input-group">
+                    <div class="color-input-option">
+                        <label for="color-red">Red</label>
+                        <input checked type="radio" name="color-input" id="color-red">
+                    </div>
+                    <div class="color-input-option">
+                        <label for="color-black">Black</label>
+                        <input type="radio" name="color-input" id="color-black">
+                    </div>
+                    <div class="color-input-option">
+                        <label for="color-blue">Blue</label>
+                        <input type="radio" name="color-input" id="color-blue">
+                    </div>
+                    <div class="color-input-option">
+                        <label for="color-white">White</label>
+                        <input type="radio" name="color-input" id="color-white">
+                    </div>
+                    <div class="color-input-option">
+                        <label for="color-grey">Grey</label>
+                        <input type="radio" name="color-input" id="color-grey">
+                    </div>
+                </div>
+
+                <div class="input-group price-range">
+                    <label for="price">Price</label>
+                    <input type="range" name="price-input" id="price" min="10" max="80" step="10" list="price-list">
+
+                    <datalist id="price-list">
+                        <option value="10" label="10"></option>
+                        <option value="20" label="20"></option>
+                        <option value="30" label="30"></option>
+                        <option value="40" label="40"></option>
+                        <option value="50" label="50"></option>
+                        <option value="60" label="60"></option>
+                        <option value="70" label="70"></option>
+                        <option value="80" label="80"></option>
+                    </datalist>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="form-buttons">
+            <a href="index.html" class="button">Cancel</a>
+            <button type="submit">Ok</button>
+        </div>
     </form>
 </body>
+
 </html>
