@@ -89,10 +89,6 @@ option {
     font-size: 0.8rem;
 }
 
-.disabled-option {
-    display: none;
-}
-
 .form-buttons {
     display: flex;
     justify-content: center;
